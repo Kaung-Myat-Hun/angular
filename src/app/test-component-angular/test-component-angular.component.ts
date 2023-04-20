@@ -8,4 +8,5 @@ import {Hero} from '../hero'
 })
 export class TestComponentAngularComponent {
   @Input() hero?: Hero;
+
 }
