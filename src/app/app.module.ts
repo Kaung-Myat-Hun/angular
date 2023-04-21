@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
@@ -13,7 +14,7 @@ import { TestComponentAngularComponent } from './test-component-angular/test-com
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    TestComponentAngularComponent
+    TestComponentAngularComponent,
   ],
   imports: [
     BrowserModule,
